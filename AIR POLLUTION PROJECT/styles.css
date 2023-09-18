@@ -1,0 +1,60 @@
+.hero {
+    background-color: #66CCFF;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Styling for fluid layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Styling for CTA buttons */
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Styling for popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.popup h3 {
+    margin-bottom: 15px;
+}
+
+.popup #closePopup {
+    background-color: #333;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup #closePopup:hover {
+    background-color: #555;
+}
